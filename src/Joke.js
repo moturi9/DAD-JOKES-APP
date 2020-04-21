@@ -42,7 +42,7 @@ class Joke extends Component {
         <div className="Joke-buttons">
           <i className="fas fa-arrow-up" onClick={this.props.upvote} />
           <span className="Joke-votes" style={{ borderColor: this.getColor() }}>
-            {this.props.votes}{' '}
+            {this.props.votes}
           </span>
           <i className="fas fa-arrow-down" onClick={this.props.downvote} />
         </div>
@@ -54,6 +54,4 @@ class Joke extends Component {
     )
   }
 }
-
-/* export the component to be used in other components */
 export default Joke
