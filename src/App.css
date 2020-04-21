@@ -1,4 +1,19 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Rubik', sans-serif;
+  color: #78909c;
+  /* background: linear-gradient(
+    135deg,
+    rgba(179, 229, 252, 1) 0%,
+    rgba(179, 229, 252, 1) 50%,
+    rgba(240, 98, 146, 1) 50%,
+    rgba(240, 98, 146, 1) 100%
+  ); */
+  background: #b1dee1;
+  background: -webkit-linear-gradient(top right, #b1dee1, #8cb61b);
+  background: -moz-linear-gradient(top right, #b1dee1, #8cb61b);
+  background: linear-gradient(to bottom left, #b1dee1, #8cb61b);
 }
